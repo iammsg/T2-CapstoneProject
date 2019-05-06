@@ -7,7 +7,8 @@ from styx_msgs.msg import TrafficLight
 
 
 class TLClassifier(object):
-    def __init__(self, model_file):
+    #def __init__(self):
+    def __init__(self, model_file): 
         # TODO load classifier
         self.current_light = TrafficLight.UNKNOWN
 
