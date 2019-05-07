@@ -13,6 +13,9 @@ import cv2
 import yaml
 
 STATE_COUNT_THRESHOLD = 3
+
+#Test_mode_enabled = true for getting states from simulator itself
+#it is set to false as default to get states from cnn model
 TEST_MODE_ENABLED = False
 
 class TLDetector(object):
