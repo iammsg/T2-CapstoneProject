@@ -3,7 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-build/
+ros/build/
+ros/devel/
 
 # User-specific files
 *.suo
